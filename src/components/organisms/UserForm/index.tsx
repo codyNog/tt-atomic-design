@@ -9,9 +9,9 @@ export const UserForm: React.FC<Props> = ({ styleProps }) => {
   return (
     <Box {...styleProps}>
       <Input placeholder={"ユーザー名"} />
-      <Input placeholder={"年齢"} />
-      <Input placeholder={"組織"} />
-      <MultipleInput placeholder={"特記事項"} />
+      <Input placeholder={"年齢"} mt={2} />
+      <Input placeholder={"組織"} mt={2} />
+      <MultipleInput placeholder={"特記事項"} styleProps={{ mt: 2 }} />
     </Box>
   );
 };
